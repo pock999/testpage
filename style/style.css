@@ -26,7 +26,7 @@ a{
         width:36px;
         height:auto;
     }
-    .mmenu ul{
+    #hid-ul{
         position:absolute;
         visibility:hidden;
 
@@ -43,9 +43,9 @@ a{
         padding-right:30px;
         padding-left:30px;
     }
-    .mmenu:focus ul{
+    /* .mmenu:focus ul{
         visibility:visible;
-    }
+    } */
 }
 
 @media screen and (min-width: 768px) {
