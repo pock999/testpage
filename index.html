@@ -8,6 +8,7 @@
     <title>歡迎!!!</title>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
     <link rel="stylesheet" href="./style/style.css">
+    
 </head>
 <body>
     <div class="header col-12">
@@ -17,7 +18,7 @@
             <a href="#" class="a-m">註冊</a>
             <div class="mmenu">
                 <img src="./style/icon/icons8-menu-filled-24.png" alt="選單">
-                <ul>
+                <ul id = "hid-ul">
                   <li><a href="#">登入</a></li>
                   <li><a href="#">註冊</a></li>
                 </ul>
@@ -25,5 +26,17 @@
         </div>
     </div>
     
+    <div style="width:1000px; height:2000px; background-color: blue;"></div>
+    <script>
+
+            var visi = document.getElementById('hid-ul').style.visibility;
+            document.getElementsByClassName('mmenu')[0].onclick = function() {
+                if(document.getElementById('hid-ul').style.visibility === "" || document.getElementById('hid-ul').style.visibility==="hidden"){
+                    document.getElementById('hid-ul').style.visibility = "visible";
+                }else{
+                    document.getElementById('hid-ul').style.visibility="hidden";
+                }
+            };
+    </script>
 </body>
 </html>
