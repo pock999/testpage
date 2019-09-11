@@ -1,39 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 <head>
     <meta charset="UTF-8">
-    <html  lang="zh-Hant-TW"></html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>歡迎!!!</title>
-    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href='./css/style.css'>
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome-free-5.10.2-web/css/all.min.css">
 </head>
 <body>
-    <div class="header col-12">
-        <a class="home" href="#">購物商城</a>
-        <div class="nav-item">
-            <a href="#" class="a-m">登入</a>
-            <a href="#" class="a-m">註冊</a>
-            <div class="mmenu">
-                <img src="./style/icon/icons8-menu-filled-24.png" alt="選單">
-                <ul id="hid-ul">
-                  <li><a href="#">登入</a></li>
-                  <li><a href="#">註冊</a></li>
-                </ul>
+    <div class="header">
+        <div class="subject">平台名稱或專題題目</div>
+        <div class="menu">
+            <ul>
+                <li>選項1</li>
+                <li>選項2</li>
+            </ul>
+        </div>
+        <div class="mobile-menu">
+            <i class="fa fa-bars" ></i>
+            <span>選單</span>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <h3 class="label"><i class="fas fa-tag"></i>最新蔬果價量</h3>
+        <div class="container">
+            
+            <div class="crop-item">
+                <p class="crop-name">作物名稱</p>
+                <p class="crop-date">交易日期</p>
+                <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                <p class="crop-name">作物名稱</p>
+                <p class="crop-date">交易日期</p>
+                <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                    <p class="crop-name">作物名稱</p>
+                    <p class="crop-date">交易日期</p>
+                    <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                <p class="crop-name">作物名稱</p>
+                <p class="crop-date">交易日期</p>
+                <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                    <p class="crop-name">作物名稱</p>
+                    <p class="crop-date">交易日期</p>
+                    <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                    <p class="crop-name">作物名稱</p>
+                    <p class="crop-date">交易日期</p>
+                    <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                <p class="crop-name">作物名稱</p>
+                <p class="crop-date">交易日期</p>
+                <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                    <p class="crop-name">作物名稱</p>
+                    <p class="crop-date">交易日期</p>
+                    <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                    <p class="crop-name">作物名稱</p>
+                    <p class="crop-date">交易日期</p>
+                    <p class="crop-code">交易代碼:交易代碼</p>
+            </div>
+            <div class="crop-item">
+                <p class="crop-name">作物名稱</p>
+                <p class="crop-date">交易日期</p>
+                <p class="crop-code">交易代碼:交易代碼</p>
             </div>
         </div>
     </div>
-    <script>
 
-            var visi = document.getElementById('hid-ul').style.visibility;
-            document.getElementsByClassName('mmenu')[0].onclick = function() {
-                if(document.getElementById('hid-ul').style.visibility === "" || document.getElementById('hid-ul').style.visibility==="hidden"){
-                    document.getElementById('hid-ul').style.visibility = "visible";
-                }else{
-                    document.getElementById('hid-ul').style.visibility="hidden";
-                }
-            };
-    </script>
+    <div class="footer">
+        
+
+    </div>
+    
 </body>
 </html>
